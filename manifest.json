@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Avengers",
+    "description": "Choose Your Side",
+    "version":"1",
+    "author":"Praval",
+    
+  "browser_action": {
+  "default_icon": "avengers.png",
+   "default_title": "Marvel World"
+ },
+   "chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+    "permissions": ["activetab"]
+}
